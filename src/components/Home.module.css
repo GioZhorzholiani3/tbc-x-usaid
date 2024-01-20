@@ -1,0 +1,36 @@
+.homeContainer {
+  position: relative;
+  background: url("https://static.wixstatic.com/media/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg/v1/fill/w_1812,h_420,al_c,q_85,enc_auto/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg")
+    center/cover; /* Set the background image URL and styling */
+  height: 352px; /* Adjust the height as needed */
+  color: white; /* Set the text color */
+  padding: 20px; /* Add padding to the div */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 5rem;
+}
+
+.homePWrapper {
+  margin-top: 4.5rem;
+  margin-left: 15.5rem;
+}
+
+.homeContainer p {
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 1165px) {
+  .homePWrapper {
+    margin-left: 9rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .homePWrapper {
+    margin-top: 4.5rem;
+    margin-left: 0;
+  }
+}
