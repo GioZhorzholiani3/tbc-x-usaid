@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import classes from "./Header.module.css";
 import logo from "../assets/tbc.png";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,6 +28,7 @@ const Header = () => {
         <p className={classes.logoText}> x აკადემია</p>
       </div>
       <div className={classes.navbarContainer}>
+        <GiHamburgerMenu className={classes.burgerBar} />
         <nav>
           <ul className={classes.navbar}>
             <li>მთავარი</li>
