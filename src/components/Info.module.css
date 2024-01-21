@@ -22,9 +22,10 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
   font-size: 1.5rem;
-  color: rgb(13, 131, 201);
+  color: rgb(58, 183, 255);
   cursor: pointer;
   transition: color 0.3s ease;
+  font-family: "Arial GEO Bold", sans-serif;
 }
 
 .infoText span:hover {
