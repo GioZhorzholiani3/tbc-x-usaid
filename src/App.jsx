@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Info from "./components/Info";
 import Courses from "./components/Courses/Courses";
+import Carousel from "./components/Courses/Carousel";
+import Questions from "./components/Questions";
 import Footer from "./components/Footer";
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Home />
       <Info />
       <Courses />
+      <Carousel />
+      <Questions />
       <Footer />
     </div>
   );

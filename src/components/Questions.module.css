@@ -1,0 +1,120 @@
+.questionSection {
+  width: 100%;
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.questionContainer {
+  width: 67%;
+  padding: 4rem 0;
+}
+
+.questionHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.questionHeader > p:first-child {
+  /* font-family: "Arial GEO Bold", sans-serif; */
+  font-size: 1.6rem;
+  color: white;
+}
+
+.questionHeader > p:last-child {
+  font-family: "Arial GEO Bold", sans-serif;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  color: rgb(23, 156, 234);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.questionHeader > p:last-child:hover {
+  color: rgb(158, 163, 164);
+}
+
+.firstQuestion {
+  margin-top: 2rem;
+  border: none;
+  border-bottom: 1px solid rgb(226, 234, 236);
+  padding-bottom: 1.5rem;
+}
+
+.secondQuestion {
+  margin-top: 2rem;
+  border: none;
+  border-bottom: 1px solid rgb(226, 234, 236);
+  padding-bottom: 1.5rem;
+}
+
+.thirdQuestion {
+  margin-top: 2rem;
+  border: none;
+  border-bottom: 1px solid rgb(226, 234, 236);
+  padding-bottom: 1.5rem;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question > p:first-child {
+  font-family: "Arial GEO Bold", sans-serif;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.question > p:last-child {
+  color: white;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.firstQuestionDetailContainer {
+  font-family: "Arial GEO", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 0.5rem;
+  padding-right: 0.25rem;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.courseQuestionSteps {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 1rem;
+  padding: 2rem 0;
+}
+
+.courseQuestionSteps > p {
+  margin: 0.3rem 0;
+}
+
+.courseQuestionSteps > p > span {
+  font-family: "Arial GEO Bold", sans-serif;
+  font-size: 1.01rem;
+}
+
+.secondQuestionDetailContainer p {
+  font-family: "Arial GEO", sans-serif;
+  padding: 1rem 0.4rem;
+  color: white;
+}
+
+.thirdQuestionDetailContainer p {
+  font-family: "Arial GEO", sans-serif;
+  padding: 1rem 0.4rem;
+  color: white;
+}
