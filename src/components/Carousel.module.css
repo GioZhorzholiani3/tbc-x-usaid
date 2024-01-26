@@ -1,0 +1,122 @@
+.carouselSection {
+  width: 100%;
+  background-color: rgb(43, 43, 43);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 67%;
+}
+
+.partners {
+  font-size: 1.9rem;
+  font-family: "Arial GEO Bold", sans-serif;
+  color: white;
+  margin: 2rem 0;
+}
+
+.carousel {
+  width: 70%;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.firstImg img {
+  width: 300px;
+  height: 80px;
+  margin: 0 2rem;
+}
+
+.secondImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.secondImg img {
+  width: 300px;
+  height: 80px;
+  margin: 0 2rem;
+}
+
+.secondImg img:last-child {
+  height: 100px;
+}
+
+.thirdImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.thirdImg img {
+  width: 300px;
+  height: 80px;
+  margin: 0 2rem;
+}
+
+@media screen and (max-width: 1340px) {
+  .firstImg img {
+    width: 200px;
+    height: 50px;
+    margin: 0 1rem;
+  }
+
+  .secondImg img {
+    width: 200px;
+    height: 50px;
+    margin: 0 1rem;
+  }
+
+  .secondImg img:last-child {
+    height: 80px;
+  }
+
+  .thirdImg img {
+    width: 200px;
+    height: 50px;
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .firstImg {
+    flex-direction: column;
+  }
+  .firstImg img {
+    margin: 0.5rem 0;
+  }
+  .secondImg {
+    flex-direction: column;
+  }
+
+  .secondImg img {
+    margin: 0.5rem 0;
+  }
+
+  .thirdImg {
+    margin-top: 5.5rem;
+  }
+}

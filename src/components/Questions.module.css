@@ -17,7 +17,7 @@
 }
 
 .questionHeader > p:first-child {
-  /* font-family: "Arial GEO Bold", sans-serif; */
+  font-family: "Arial GEO Bold", sans-serif;
   font-size: 1.6rem;
   color: white;
 }
