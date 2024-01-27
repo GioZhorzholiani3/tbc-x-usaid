@@ -1,8 +1,38 @@
-# React + Vite
+# TBC x USAID
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Structure
 
-Currently, two official plugins are available:
+project
+│ ...
+│ assets
+└───src
+│ └───components
+│     └──Courses
+      │ CoursesItem.jsx
+      │ CoursesItem.module.css
+      │ Courses.jsx
+      │ Courses.module.css
+│ │ Carousel.jsx
+│ │ Carousel.module.css
+│ │ Footer.jsx
+│ │ Footer.module.css
+│ │ Header.jsx
+│ │ Header.module.css
+│ │ Home.jsx
+│ │ Home.module.css
+│ │ Info.jsx
+│ │ Info.moule.css
+│ │ Question.jsx
+│ │ Question.module.css
+│ App.css
+│ App.jsx
+│ index.css
+│ main.jsx
+│ ...
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React:** Using react for built user interface
+- **CSS (CSS module):** Using css module for style elements and make webpage responsive
+- **React-Slick** Using react slick library for make slider component.
+- **React Icons** Useing react icons for import icons for my project.
+
