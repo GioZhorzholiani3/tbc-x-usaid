@@ -11,5 +11,5 @@ In project there is src file. Inside src file are assets and components file. In
 
 ## Run Project
 Download project
--**1:** Download zip file. extract file and open with code editor. In code editor open terminal and run command: npm install. After that in terminal run command: npm run dev.
--**1:** If using bash clone repository using: git clone https://github.com/GioZhorzholiani3/tbc-x-usaid.git. Open file with code editor. In code editor open terminal and run command: npm install. After that in terminal run command: npm run dev.
+- **1** Download zip file. extract file and open with code editor. In code editor open terminal and run command: npm install. After that in terminal run command: npm run dev.
+- **2** If using bash clone repository using: git clone https://github.com/GioZhorzholiani3/tbc-x-usaid.git. Open file with code editor. In code editor open terminal and run command: npm install. After that in terminal run command: npm run dev.
