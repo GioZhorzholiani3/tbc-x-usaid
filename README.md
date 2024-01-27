@@ -1,34 +1,7 @@
 # TBC x USAID
 
 ## Project Structure
-
-project
-│ ...
-│ assets
-└───src
-│ └───components
-│     └──Courses
-      │ CoursesItem.jsx
-      │ CoursesItem.module.css
-      │ Courses.jsx
-      │ Courses.module.css
-│ │ Carousel.jsx
-│ │ Carousel.module.css
-│ │ Footer.jsx
-│ │ Footer.module.css
-│ │ Header.jsx
-│ │ Header.module.css
-│ │ Home.jsx
-│ │ Home.module.css
-│ │ Info.jsx
-│ │ Info.moule.css
-│ │ Question.jsx
-│ │ Question.module.css
-│ App.css
-│ App.jsx
-│ index.css
-│ main.jsx
-│ ...
+In project there is src file. Inside src file are assets and components file. In assets folder is tbc logo image. Inside components folder are one Courses folder and other components which i am using inside this project. Inside Courses folder are 2 components 
 
 ## Technologies Used
 - **React:** Using react for built user interface
@@ -36,3 +9,7 @@ project
 - **React-Slick** Using react slick library for make slider component.
 - **React Icons** Useing react icons for import icons for my project.
 
+## Run Project
+Download project
+-**1:** Download zip file. extract file and open with code editor. In code editor open terminal and run command: npm install. After that in terminal run command: npm run dev.
+-**1:** If using bash clone repository using: git clone https://github.com/GioZhorzholiani3/tbc-x-usaid.git. Open file with code editor. In code editor open terminal and run command: npm install. After that in terminal run command: npm run dev.
