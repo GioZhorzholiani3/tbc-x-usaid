@@ -1,7 +1,7 @@
 # TBC x USAID
 
 ## Project Structure
-In project there is src file. Inside src file are assets and components file. In assets folder is tbc logo image. Inside components folder are one Courses folder and other components which i am using inside this project. Inside Courses folder are 2 components 
+In project there is src file. Inside src file are assets and components file. In assets folder is tbc logo image. Inside components folder are one Courses folder and other components which i am using inside this project. Inside Courses folder are 2 components.
 
 ## Technologies Used
 - **React:** Using react for built user interface
